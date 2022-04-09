@@ -1,0 +1,30 @@
+.outside{
+	width: 500px;
+	margin:auto;
+	display: flex;
+	flex-direction: column;
+	border: solid 3px darkslategray;
+	padding: 3px;
+	background-color: lightgreen;
+}
+.inside{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	
+}
+div{
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+}
+input{
+	border: solid 2px darkslategray;
+	background-color: white;
+}
+p{
+	border: 3px solid darkslategray;
+	background-color: greenyellow;
+	margin:2px;
+	padding:3px;
+}
