@@ -14,10 +14,10 @@
                     var spr = /^[a-zżółćźęąńś]{2,50}$/gi
                     break;
                     case "nazwisko":
-                    var spr = /^[a-z-'żółćźęąńś]{2,50}$/gi
+                    var spr = /^([a-zżółćźęąńś]+)( )?([a-zżółćźęąńś]+)?$/gi
                     break;
                     case "ulica":
-                    var spr = /^([a-zżółćźęąńś]+)( )?([a-z]+)?$/gi
+                    var spr = /^(([a-zżółćźęąńś]+)( )?([a-zżółćźęąńś]+)?)|([0-9]+( )([a-zżółćźęąńś]+)( )?([a-zżółćźęąńś]+)?)$/gi
                     break;
                     case "numerdomu":
                     var spr = /^[0-9]{1,4}$/g
